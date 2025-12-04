@@ -1,0 +1,24 @@
+name: sam-lung
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - setuptools
+  - wheel
+  - pip:
+    - segment-anything==1.0
+    - torch==1.13.1
+    - torchvision==0.14.1
+    - torchaudio==0.13.1
+    - opencv-python==4.11.0.86
+    - pillow==10.4.0
+    - numpy==1.24.4
+    - scipy==1.10.1
+    - einops==0.8.1
+    - absl-py==2.3.0
+    - ml-collections==0.1.1
+    - pyyaml==6.0.2
+    - requests==2.32.3
